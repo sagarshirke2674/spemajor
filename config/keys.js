@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: process.env.MONGODB_URI || "mongodb://test123:test123@ds121225.mlab.com:21225/heroku_pz3lsb75",
+    mongoURI: process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/itdb",
     secretOrKey: "secret"
   };
