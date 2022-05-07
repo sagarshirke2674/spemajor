@@ -6,7 +6,7 @@ import {
     SET_CURRENT_USER,
     USER_LOADING
 } from "./types";
-
+import { API } from "../config";
 // Register User
 export const registerUser = (userData, history) => dispatch => {
     axios
